@@ -1,8 +1,12 @@
 //your JS code here. If required.
-let n = prompt("Enter year:");
+let n = prompt("Please enter your name:");
+n = parseInt(n);
+let days = 0;
 if(n % 4 === 0 && n % 100 !== 0) || n % 400 === 0; {
-	console.log(366);
+	days = 366;
 }
 else {
-	console.log(365);
+	days =365;
 }
+
+console.log(days);
